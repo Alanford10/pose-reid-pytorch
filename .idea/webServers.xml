@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="309dac28-f575-4c52-b0f7-e9c1039c8543" name="medialab" url="http://192.168.1.7">
+        <fileTransfer host="192.168.1.7" port="22" rootFolder="/home/hzx" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d75e0581-e121-4029-9c99-1233c3af88c5" name="uow" url="http://10.25.87.214">
+        <fileTransfer host="10.25.87.214" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
